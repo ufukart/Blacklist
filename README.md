@@ -5,6 +5,7 @@ A comprehensive, regularly updated IP blacklist compiled from multiple trusted s
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Update Status](https://img.shields.io/badge/Status-Actively%20Maintained-green.svg)](https://github.com/ufukart/Blacklist)
 [![Last Updated](https://img.shields.io/github/last-commit/ufukart/Blacklist)](https://github.com/ufukart/Blacklist/commits/main)
+![Blacklist File Size](https://img.shields.io/github/size/ufukart/Blacklist/blacklist.txt)
 ![GitHub repo size](https://img.shields.io/github/repo-size/ufukart/Blacklist)
 ![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fufukart%2FBlacklist%2F&label=HITS&countColor=%23263759&style=flat)
 [![Donate](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://www.paypal.com/donate/?business=53EHQKQ3T87J8&no_recurring=0&currency_code=USD)
