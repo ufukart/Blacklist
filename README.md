@@ -34,7 +34,7 @@ wget https://raw.githubusercontent.com/ufukart/Blacklist/main/blacklist.txt
 
 ## 📊 Statistics
 
-- **Total IPs**: ![Ips](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/ufukart/Blacklist/main/.badges/lines.json&cacheSeconds=3600) (varies with updates)
+- **Total IPs**: **<!--IP_COUNT-->0<!--/IP_COUNT-->** (varies with updates)
 - **Update Frequency**: Every 6 hours
 - **Sources**: 11 trusted security feeds
 - **Format**: Plain text, one IP per line
