@@ -32,6 +32,10 @@ jobs:
           }
           EOF
 
+          sed -i -E \
+            "s#(<!--IP_COUNT-->).*?(<!--/IP_COUNT-->)#\1${LINES}\2#" \
+            README.md
+
       - name: Commit changes
         run: |
           git config user.name github-actions
@@ -43,9 +47,3 @@ jobs:
             git commit -m "Update line count"
             git push
           )
-            - name: Update README
-            COUNT=$(grep '"message"' .badges/lines.json | sed -E 's/.*"message": "([^"]+)".*/\1/')
-
-            sed -i -E \
-              "s#(<!--IP_COUNT-->).*?(<!--/IP_COUNT-->)#\1${COUNT}\2#" \
-              README.md
