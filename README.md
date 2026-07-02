@@ -23,6 +23,7 @@ This repository provides a curated IP blacklist aggregated from multiple reputab
 ## 🚀 Quick Start
 
 ### Direct Download
+
 ```bash
 # Download the latest blacklist
 curl -O https://raw.githubusercontent.com/ufukart/Blacklist/main/blacklist.txt
@@ -45,7 +46,7 @@ wget https://raw.githubusercontent.com/ufukart/Blacklist/main/blacklist.txt
 This blacklist aggregates data from the following trusted sources:
 
 | Source | Description | Type |
-|--------|-------------|------|
+| -------- | ------------- | ------ |
 | [Project Honey Pot](https://www.projecthoneypot.org/) | Directory of Dictionary Attacker IPs | Malicious IPs |
 | [Tor Project](https://check.torproject.org/) | Tor Exit Nodes | Anonymity Network |
 | [BruteForceBlocker](https://danger.rulez.sk/projects/bruteforceblocker/) | Brute Force Attack IPs | Attack Prevention |
@@ -60,7 +61,7 @@ This blacklist aggregates data from the following trusted sources:
 
 ## 📁 File Format
 
-```
+```ips
 # Each line contains one IP address or CIDR block
 192.168.1.100
 10.0.0.0/8
@@ -68,25 +69,28 @@ This blacklist aggregates data from the following trusted sources:
 ```
 
 - **Plain text format** for maximum compatibility
-- **One IP/CIDR per line** 
+- **One IP/CIDR per line**
 - **No comments or headers** in the main file
 - **IPv4 only** (IPv6 support planned)
 
 ## ⚠️ Important Notes
 
 ### Filtering Applied
+
 - **Private IP ranges** are automatically excluded (10.x.x.x, 192.168.x.x, 172.16-31.x.x)
 - **Localhost addresses** are filtered out
 - **Multicast ranges** are excluded (224-239.x.x.x)
 - **Duplicate entries** are removed
 
 ### Recommendations
+
 - **Test thoroughly** before implementing in production
 - **Monitor false positives** and adjust as needed
 - **Keep backups** of your original firewall rules
 - **Update regularly** for maximum effectiveness
 
 ### Disclaimer
+
 This blacklist is provided "as-is" for informational and security purposes. Users are responsible for testing and validating the impact on their specific environments. The maintainers are not liable for any issues arising from the use of this data.
 
 ## 🔄 Update Schedule
@@ -109,7 +113,7 @@ Contributions are welcome! Please:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-```
+```License
 MIT License
 
 Copyright (c) 2025 [Your Name]
@@ -141,6 +145,6 @@ SOFTWARE.
 
 ---
 
-### 🌟 Star this repository if you find it useful!
+### 🌟 Star this repository if you find it useful
 
 **Keywords**: `blacklist`, `security`, `firewall`, `iptables`, `malware`, `botnet`, `threat-intelligence`, `cybersecurity`, `ip-blocking`, `network-security`
