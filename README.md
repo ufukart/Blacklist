@@ -15,14 +15,14 @@ A comprehensive, automatically maintained IP blacklist compiled from multiple tr
 
 | Metric | Value |
 | --------- | ------: |
-| **Blocked IP Addresses** | **<!--IP_COUNT-->0<!--/IP_COUNT-->** |
+| **Blocked IP Addresses** | **<!--IP_COUNT-->198029<!--/IP_COUNT-->** |
 | **Update Frequency** | Every 6 hours |
 | **Security Sources** | 11 |
 | **Duplicates** | Automatically Removed |
 | **Private IPs** | Filtered Out |
 | **Format** | Plain Text |
 
-> The blacklist currently contains **<!--IP_COUNT-->0<!--/IP_COUNT-->** unique malicious IP addresses collected from trusted security feeds.
+> The blacklist currently contains **<!--IP_COUNT-->198029<!--/IP_COUNT-->** unique malicious IP addresses collected from trusted security feeds.
 
 ---
 
@@ -40,7 +40,7 @@ wget https://raw.githubusercontent.com/ufukart/Blacklist/main/blacklist.txt
 
 ## 📊 Statistics
 
-- **Total IPs**: **<!--IP_COUNT-->0<!--/IP_COUNT-->** (varies with updates)
+- **Total IPs**: **<!--IP_COUNT-->198029<!--/IP_COUNT-->** (varies with updates)
 - **Update Frequency**: Every 6 hours
 - **Sources**: 11 trusted security feeds
 - **Format**: Plain text, one IP per line
