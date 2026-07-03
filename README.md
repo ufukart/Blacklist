@@ -74,6 +74,18 @@ The list includes addresses associated with:
 
 ---
 
+## ✅ Compatible With
+
+- iptables
+- ipset
+- nftables
+- Fail2Ban
+- CSF
+- UFW
+- pfSense
+- OPNsense
+- MikroTik
+
 ## 📂 File Format
 
 ```ipformats
@@ -107,6 +119,22 @@ The list includes addresses associated with:
 | StopForumSpam | Spam IP database |
 | AbuseIPDB | Community abuse reports |
 | RTBH | Remote Triggered Black Hole |
+
+---
+
+## Why Blacklist?
+
+✔ Multiple trusted sources
+
+✔ Duplicate removal
+
+✔ Private IP filtering
+
+✔ Ready for production
+
+✔ Free forever
+
+✔ Updated every 6 hours
 
 ---
 
