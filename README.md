@@ -34,7 +34,7 @@ wget https://raw.githubusercontent.com/ufukart/Blacklist/main/blacklist.txt
 
 ## 📊 Statistics
 
-- **Total IPs**: **<!--IP_COUNT-->0<!--/IP_COUNT-->** (varies with updates)
+- **Total IPs**: **<!--IP_COUNT-->198029<!--/IP_COUNT-->** (varies with updates)
 - **Update Frequency**: Every 6 hours
 - **Sources**: 11 trusted security feeds
 - **Format**: Plain text, one IP per line
