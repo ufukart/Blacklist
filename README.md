@@ -38,36 +38,45 @@ or
 wget https://raw.githubusercontent.com/ufukart/Blacklist/main/blacklist.txt
 ```
 
-## 📊 Statistics
+---
 
+<<<<<<< HEAD
+## 📖 Description
+=======
 - **Total IPs**: **<!--IP_COUNT-->198029<!--/IP_COUNT-->** (varies with updates)
 - **Update Frequency**: Every 6 hours
 - **Sources**: 11 trusted security feeds
 - **Format**: Plain text, one IP per line
 - **Duplicates**: Automatically removed
 - **Private IPs**: Filtered out (RFC 1918)
+>>>>>>> c5800118fa8ec4493d2451860b3c798f62420ee9
 
-## 🔍 Data Sources
+This repository provides a continuously updated blacklist of malicious IPv4 addresses aggregated from multiple reputable threat intelligence providers.
 
-This blacklist aggregates data from the following trusted sources:
+The blacklist is designed for use with:
 
-| Source | Description | Type |
-| -------- | ------------- | ------ |
-| [Project Honey Pot](https://www.projecthoneypot.org/) | Directory of Dictionary Attacker IPs | Malicious IPs |
-| [Tor Project](https://check.torproject.org/) | Tor Exit Nodes | Anonymity Network |
-| [BruteForceBlocker](https://danger.rulez.sk/projects/bruteforceblocker/) | Brute Force Attack IPs | Attack Prevention |
-| [Spamhaus DROP](https://www.spamhaus.org/drop/) | Don't Route Or Peer List | Network Security |
-| [C.I. Army](https://cinsscore.com/) | Malicious IP Intelligence | Threat Intelligence |
-| [blocklist.de](https://lists.blocklist.de/) | Attack IP Database | Security Feed |
-| [GreenSnow](https://blocklist.greensnow.co/) | Malicious IP List | Threat Detection |
-| [FireHOL Level 1](https://iplists.firehol.org/) | High Confidence Threats | Threat Intelligence |
-| [StopForumSpam](https://www.stopforumspam.com/) | Forum Spam IPs | Anti-Spam |
-| [AbuseIPDB](https://www.abuseipdb.com/) | Community Reported Abuse | Crowdsourced Security |
-| [RTBH](https://list.rtbh.com.tr/) | Remote Triggered Black Hole | Flexible, Reliable, and Sustainable RTBH (Remote Triggered Black Hole) Service |
+- Firewalls
+- Intrusion Prevention Systems (IPS)
+- Intrusion Detection Systems (IDS)
+- Web Application Firewalls (WAF)
+- Reverse Proxies
+- Security Appliances
+- Custom Security Scripts
 
-## 📁 File Format
+The list includes addresses associated with:
 
-```Ip Formats
+- Malicious bots
+- Brute-force attacks
+- Spam sources
+- Tor exit nodes
+- Known attackers
+- Threat intelligence feeds
+
+---
+
+## 📂 File Format
+
+```ipformats
 1.2.3.4
 8.8.8.8
 203.0.113.0/24
