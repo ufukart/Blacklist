@@ -17,12 +17,12 @@ A comprehensive, automatically maintained IP blacklist compiled from multiple tr
 | --------- | ------: |
 | **Blocked IP Addresses** | **<!--IP_COUNT-->243778<!--/IP_COUNT-->** |
 | **Update Frequency** | Every 6 hours |
-| **Security Sources** | 11 |
+| **Security Sources** | 15 |
 | **Duplicates** | Automatically Removed |
 | **Private IPs** | Filtered Out |
 | **Format** | Plain Text |
 
-> 🔥 The blacklist currently contains **<!--IP_COUNT-->243778<!--/IP_COUNT-->** unique malicious IP addresses, aggregated from 11 trusted security feeds and refreshed every 6 hours.
+> 🔥 The blacklist currently contains **<!--IP_COUNT-->243778<!--/IP_COUNT-->** unique malicious IP addresses, aggregated from 15 trusted security feeds and refreshed every 6 hours.
 
 ---
 
@@ -48,7 +48,7 @@ This repository provides a continuously updated blacklist of malicious IPv4 addr
 
 - **Total IPs**: **<!--IP_COUNT-->243778<!--/IP_COUNT-->** (varies with updates)
 - **Update Frequency**: Every 6 hours
-- **Sources**: 11 trusted security feeds
+- **Sources**: 15 trusted security feeds
 - **Format**: Plain text, one IP per line
 - **Duplicates**: Automatically removed
 - **Private IPs**: Filtered out (RFC 1918)
