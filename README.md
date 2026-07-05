@@ -109,6 +109,7 @@ This project aggregates, deduplicates, and merges IP blacklist feeds from the fo
 
 | Source | Description |
 | -------- | ------------- |
+| Zumbo Threat Intelligence | IP addresses detected in real time by the Zumbo server infrastructure for malicious activities such as brute-force attacks, vulnerability scanning, exploit attempts, and other abusive behavior. |
 | AbuseIPDB (Borestad Mirror) | IP addresses reported for abuse within the last 30 days with a 100% confidence score. |
 | RTBH Blocklist | A Remote Triggered Black Hole (RTBH) blacklist of IP addresses associated with malicious traffic, maintained in Türkiye. |
 | Blocklist.de | Aggregated IP addresses detected attacking SSH, mail, web, and other Internet services. |
