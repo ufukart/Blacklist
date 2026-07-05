@@ -104,22 +104,26 @@ The list includes addresses associated with:
 
 ---
 
-## 📊 Data Sources
+## 📊 📚 Blacklist Data Sources
+This project aggregates, deduplicates, and merges IP blacklist feeds from the following trusted open-source threat intelligence sources:
 
 | Source | Description |
 | -------- | ------------- |
-| Project Honey Pot | Dictionary attacker IPs |
-| Tor Project | Tor Exit Nodes |
-| BruteForceBlocker | Brute-force attackers |
-| Spamhaus DROP | High-risk networks |
-| C.I. Army | Threat intelligence |
-| blocklist.de | Attack database |
-| GreenSnow | Malicious IP feed |
-| FireHOL Level 1 | High-confidence threats |
-| StopForumSpam | Spam IP database |
-| AbuseIPDB | Community abuse reports |
-| RTBH | Remote Triggered Black Hole |
-
+| AbuseIPDB (Borestad Mirror) | IP addresses reported for abuse within the last 30 days with a 100% confidence score. |
+| RTBH Blocklist | A Remote Triggered Black Hole (RTBH) blacklist of IP addresses associated with malicious traffic, maintained in Türkiye. |
+| Blocklist.de | Aggregated IP addresses detected attacking SSH, mail, web, and other Internet services. |
+| CINS Score – Bad Guys | Malicious IP addresses identified by the CINS Army and assigned a poor reputation score. |
+| FireHOL – StopForumSpam (7d) | IP addresses involved in forum and comment spam activity during the past 7 days. |
+| GreenSnow | IP addresses observed performing brute-force attacks, port scanning, and other malicious activities. |
+| FireHOL Level 1 | A low false-positive, general-purpose blacklist covering widely recognized malicious IPs. |
+| Spamhaus DROP | Network ranges that are fully controlled by cybercriminals or allocated exclusively for malicious activity. |
+| Tor Bulk Exit List | The current list of Tor exit node IP addresses. |
+| BruteForceBlocker | IP addresses observed conducting SSH brute-force attacks. |
+| Project Honey Pot | IP addresses detected engaging in malicious activity by the Project Honey Pot network. |
+| Emerging Threats – Compromised IPs | IP addresses of known compromised servers and devices. |
+| Feodo Tracker | IP addresses associated with command-and-control (C2) infrastructure used by malware families such as Feodo, Dridex, and Emotet. |
+| ThreatView – High Confidence Feed | High-confidence threat intelligence feed containing verified malicious IP addresses. |
+| IPsum | A reputation-ranked IP list compiled from numerous threat intelligence sources. |
 ---
 
 ## Why Blacklist?
